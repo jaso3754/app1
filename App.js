@@ -15,7 +15,7 @@ export default function App() {
   // Función para manejar el clic en el botón
   const handleButtonPress = () => {
     setShowMessage(true); // Actualizar el estado para mostrar el mensaje
-    Alert.alert('Mensaje', 'Mira debajo de tu cama!'); // Mostrar un cuadro de diálogo con el mensaje
+    Alert.alert(); // Mostrar un cuadro de diálogo con el mensaje
   };
 
  
